@@ -7,8 +7,8 @@ public class UsoDeClaseBaseMaths {
 
 	public static void main(String[] args) {
 		System.out.println("agrega la longuitud");
-		int longuitud= teclado.nextInt();
-		Contrasenia test= new Contrasenia(longuitud);
+		int longuitud = teclado.nextInt();
+		Contrasenia test = new Contrasenia(longuitud);
 		System.out.println(test.getContraseña());
 		System.out.println("es fuerte: " + test.esFuerte());
 		test.generarPassword();
